@@ -29,9 +29,9 @@ st.write('Missing Values:', expresso.isnull().sum())
 st.write('Data Duplicates:', expresso.duplicated().sum())
 
 #Generate profiling report
-profiler = ProfileReport(expresso,title="Expresso Profiling")
-profiler.to_file("Expresso.html")
-webbrowser.open("Expresso.html")
+#profiler = ProfileReport(expresso,title="Expresso Profiling")
+#profiler.to_file("Expresso.html")
+#webbrowser.open("Expresso.html")
 # Data Preprocessing
 st.subheader('Data Preprocessing')
 if st.checkbox('Drop Missing Values'):
